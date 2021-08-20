@@ -1,13 +1,31 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  color: white;
+}
+
+.navbar ion-icon {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+.navbar h2 {
+  font-size: 30px;
+  padding-bottom: 5px;
+  text-decoration: underline 2px;
+}
+
+.navbar h2:hover {
+  text-decoration: underline 2px;
+}
+
+.formulario {
+  font-style: italic;
+  font-weight: bold;
 }
